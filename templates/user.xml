@@ -1,0 +1,39 @@
+<templateSet group="user">
+  <template name="rf" value="return new Result&lt;&gt;(false,&quot;$END$&quot;);" description="return false Result" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="log" value="private static final Logger logger = LoggerFactory.getLogger($class$.class);$END$" description="Add slf4j" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="class" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="dp" value="@DataProvider(name = &quot;$a$DataProvider&quot;)&#10;public Object[][] $a$DataProvider() {&#10;&#10;    return new Object[][]{{}, {}};&#10;}&#10;&#10;@Test(dataProvider = &quot;$a$DataProvider&quot;)&#10;public void $a$(){&#10;    &#10;}" description="create DataProvider" toReformat="false" toShortenFQNames="true">
+    <variable name="a" expression="methodName()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="cc" value="@Slf4j&#10;@ContextConfiguration(locations = &quot;classpath:spring-context.xml&quot;)" description="TestngContextConfiguration" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="mvn" value="mvn clean install -Dmaven.javadoc.skip=true -DskipTests=true" description="mvn clean  install" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="mysql" value="if (e.getCause() instanceof MySQLIntegrityConstraintViolationException) {&#10;    log.info(&quot;检测到该条记录已经保存&quot;);          &#10;} else {&#10;    throw e;&#10;}" description="MySQLIntegrityConstraintViolationException" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>

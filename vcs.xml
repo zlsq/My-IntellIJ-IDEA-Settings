@@ -1,0 +1,52 @@
+<application>
+  <component name="GitRememberedInputs">
+    <option name="visitedUrls">
+      <list>
+        <UrlAndUserName>
+          <option name="url" value="http://61.187.64.217:10023/stamp/stamp-parent.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://61.187.64.217:10023/stamp/stamp-backend/itg-svr-dao.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://61.187.64.217:10023/stamp/stamp-backend/itg-svr-dao" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://61.187.64.217:10023/stamp/stamp-backend/microservice-system.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://61.187.64.217:10023/stamp/stamp-backend/microservice-system-dao.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://61.187.64.217:10023/stamp/stamp-backend/microservice-customer-dao.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://61.187.64.217:10023/stamp/stamp-backend/microservice-query.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://61.187.64.217:10023/stamp/stamp-backend/microservice-customer.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://61.187.64.217:10023/stamp/stamp-backend/microservice-customer-service.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://61.187.64.217:10023/stamp/stamp-backend/microservice-system-service.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+      </list>
+    </option>
+    <option name="cloneParentDir" value="C:\Users\zlsq\newStamp" />
+  </component>
+  <component name="VcsApplicationSettings">
+    <option name="PATCH_STORAGE_LOCATION" value="$USER_HOME$/newStamp" />
+  </component>
+</application>

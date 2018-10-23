@@ -1,0 +1,33 @@
+<application>
+  <component name="NodeJsLocalInterpreters">
+    <local-interpreter path="C:/Program Files/nodejs/node.exe" />
+  </component>
+  <component name="Quick Notes by Jitendra Rana">
+    <option name="selectednoteindex" value="0" />
+  </component>
+  <component name="RefactoringSettings">
+    <option name="MOVE_PREVIEW_USAGES" value="false" />
+    <option name="INTRODUCE_LOCAL_CREATE_FINALS" value="false" />
+  </component>
+  <component name="SvnApplicationSettings">
+    <option name="myCheckoutURLs">
+      <list>
+        <option value="http://200.200.200.55/NewStampBusinessPlatform/05开发区/订单中心构建/" />
+      </list>
+    </option>
+    <option name="myTypedURLs">
+      <list>
+        <option value="http://200.200.200.55/NewStampBusinessPlatform/05开发区/订单中心构建/" />
+      </list>
+    </option>
+  </component>
+  <component name="com.seventh7.widget.iedis.config.I">
+    <pattern>*</pattern>
+    <pattern>get spkc::*</pattern>
+  </component>
+  <component name="com.seventh7.widget.iedis.config.ServerConfigurations">
+    <servers>
+      <general label="MyRedis" host="39.108.73.45" port="6379" password="stamp" timestamp="1516337687913" />
+    </servers>
+  </component>
+</application>

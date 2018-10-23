@@ -1,0 +1,9 @@
+<templateSet group="myTemplates">
+  <template name="mc" value="/**&#10; *&#10; $param$&#10; * @return&#10; * @author&#10; * @date $date$&#10; */" description="comment about method" toReformat="false" toShortenFQNames="true">
+    <variable name="param" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="date" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,7 +1,11 @@
 <application>
   <component name="MyBatisCodeHelper">
     <option name="profile">
-      <Profile />
+      <Profile>
+        <option name="addMapperAnnotation" value="false" />
+        <option name="iconName" value="default" />
+        <option name="useGeneratedKeys" value="false" />
+      </Profile>
     </option>
   </component>
 </application>

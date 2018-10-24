@@ -4,7 +4,7 @@
     <property name="created">2017-11-22T10:26:38</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2017.2.4.0.0</property>
-    <property name="modified">2018-10-15T14:18:47</property>
+    <property name="modified">2018-10-24T10:12:11</property>
     <property name="originalScheme">Visual Studio 2013</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.01" />
@@ -563,7 +563,7 @@
     </option>
     <option name="WARNING_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="3a7959" />
+        <option name="BACKGROUND" value="595655" />
         <option name="ERROR_STRIPE_COLOR" value="8c8c00" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
